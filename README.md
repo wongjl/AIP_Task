@@ -6,8 +6,8 @@ This repository contains a simple app on Visual QA on uploaded documents in imag
 
 **Setup Steps**
 1) Git clone/download the repository into a folder such as 'AIP_TASK'.
-2) Run Command Prompt or Terminal and change the working directory to AIP_TASK such that the working directory contains the docker-compse.yaml file.
-3) Run the following command to setup the docker containers using Docker Compose. There will be 2 containers 'frontend' and 'backend' setup.
+2) Run *Terminal* and change the working directory to AIP_TASK such that the working directory contains the *docker-compse.yaml* file.
+3) Run the following command to setup the docker containers using Docker Compose. There will be 2 containers 'frontend' and 'backend' after the setup is completed.
 ```
 docker compose up -d
 ```
