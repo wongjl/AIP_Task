@@ -70,4 +70,4 @@ Image URL: https://docular.net/previews/docx/5506-001.png
 Question: How much do I pay for security? 
 ```
 
-![example3](https://github.com/wongjl/AIP_Task/blob/main/images/example3.png)
+![example4](https://github.com/wongjl/AIP_Task/blob/main/images/example4.png)
