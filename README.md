@@ -24,6 +24,7 @@ You should be directed to a page similar to the below screenshot.
 
 ## Model Information
 **Inputs**
+
 The frontend interface will require 2 inputs.
 1) URL link to the uploaded image
 2) Question to be answered from the image
