@@ -20,7 +20,7 @@ http://localhost:8077/predict/
 You should be directed to a page similar to the below screenshot.
 ![interface](https://github.com/wongjl/AIP_Task/blob/main/images/interface.png)
 
-2) Fill in the URL link and question textbox and click on 'Run'.
+2) Fill in the URL link and question textbox and click on 'Run'. The results should be shown on the ouputs alongside with the queried document image.
 
 ## Model Information
 **Inputs**
