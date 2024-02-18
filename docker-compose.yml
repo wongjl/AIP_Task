@@ -1,0 +1,33 @@
+version: '3'
+
+secrets:
+  sensitive_data:
+    file: ./sensitive_dat.txt
+
+services:
+  backend:
+    container_name: backend
+    hostname: backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+  frontend:
+    container_name: frontend
+    hostname: frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - 8077:8077
+    links:
+      - backend:model
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
