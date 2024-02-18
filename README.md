@@ -1,8 +1,8 @@
 This repository contains a simple app on Visual QA on uploaded documents in image format.
 
 ## Setup
-**Pre-requisites**
-1) Docker installed
+**Software Pre-requisites**
+1) Docker
 
 **Setup Steps**
 1) Git clone/download the repository into a folder such as 'AIP_TASK'.
